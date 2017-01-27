@@ -1,4 +1,3 @@
-# Python3
-In th33is python project, contains from basic python functions to codes which can extract large fi
-l#
-3
+#Python
+This python project contains different files. Some of the scripts can extract large text files.It loops through each line of the file and filter the line containing emails. Then email is extracted from each lines containing email by finding and slicing method. Then email is inserted in a python list. The total number of lines and number are counted.
+
