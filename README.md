@@ -9,7 +9,7 @@ This python project contains different files. Some of the scripts can extract la
 ## Conditions
 ## Loop
 ## List
-web = ['HTML','CSS','JavaScript','Bootstrap','ReactJS','Angularjs','Python','PHP','MongoDB', 'SQL','Nodejs']
+...web = ['HTML','CSS','JavaScript','Bootstrap','ReactJS','Angularjs','Python','PHP','MongoDB', 'SQL','Nodejs']
 
 for i in range(len(web)):
     frontend = web[:6]
