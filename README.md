@@ -9,19 +9,7 @@ This python project contains different files. Some of the scripts can extract la
 ## Conditions
 ## Loop
 ## List
-*****web = ['HTML','CSS','JavaScript','Bootstrap','ReactJS','Angularjs','Python','PHP','MongoDB', 'SQL','Nodejs']
 
-*for i in range(len(web)):
-    frontend = web[:6]
-    backend = web[7:]
-    fullstack = web[:]
-*print ("You are a front-end Ninja --> ", frontend)
-*print ("You are a back-end Ninja --> ",backend)
-*print ("You are a full-stack Ninja --> ",fullstack)
-
-*for wblang in web:
-    print("I am good at ",wblang)
- Python lists are not immutable like strings. Lists in python can be modified at any time.
 ## Dictionary
 ## Tuples
 
