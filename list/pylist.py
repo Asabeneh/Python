@@ -9,4 +9,4 @@ print ("You are a back-end Ninja --> ",backend)
 print ("You are a full-stack Ninja --> ",fullstack)
 
 for wblang in web:
-    print("I am good at ",wblang)
+    print("I am good at",wblang,". If you like to learn", wblang,"stayed tune. I will start tutorial about",wblang)
