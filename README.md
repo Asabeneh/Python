@@ -1,6 +1,6 @@
 #Python
 ##Python CheatSheet
-This python project contains different files. Some of the scripts can extract large text files.It loops through each line of the file and filter the line containing emails. Then email is extracted from each lines containing email by finding and slicing method. Then email is inserted in a python list. The total emails in the file and  total number of lines are counted.
+This python repository is prepared to be an online reference material. Therefore, the repository has python scripting codes from beginner to advanced levels. To make convient for learns, I organized the repository in different folder structure:Variable,Expressions, Conditionals, Functions, Loops, Lists, Dictionaries and Tuples. In different folder of the repository there many python scripting codes. Codes in the Variable, Expressions, Conditionals, Functions and Loops are beginner level. The codes in the Lists, Dictionaries, Tuples and other are advanced levels. Scripting codes in the list, dictionary, tuples folder can extract large text files.It loops through each line of the file and filter the line containing emails. Then email is extracted from each lines containing email by finding and slicing method. Then email is inserted in a python list. The total emails in the file and  total number of lines are counted.
 
 ##Variable
 Variable are a means to store data. The data type which could be stored may be a number(int, float) or string.
@@ -48,12 +48,9 @@ print(type(items))
 dic = dict()
 print(type(dic))
 ```
-
 ## Data type
-
 ###Numbers
 Numbers are integer(int) and decimals(float).
-
 ####Integers(Int)
 ```python
 ...-5,-4,-3,-2,-1,0,1,2,3,4,5...
@@ -63,7 +60,16 @@ Numbers are integer(int) and decimals(float).
 ...-5, -5.5,0.25,0,1,3...
 ```
 ###Booleans
+Boolean values are always true or false. It is affrimation or negation of a statement. 
 ```python
+islighton = True
+islightof = False
+
+hunger = False
+statisfied = false
+married = False
+student = True
+
 True, False
 ```
 ## Strings
@@ -79,66 +85,58 @@ def saySomething():
         print("Good Morning")
   ```
 ## Conditions
+
+### One - way decision
+```python
+if
+```
+### Two -way decision
 ```python
 if 
-
 else
 ```
-
+### Multi -way decision
 ```python
- if
-
+if
 elif 
-
 elif
-
 elif
-
 else
 ```
-
 ## Loop
 ```python
-web = ['HTML', 'CSS', 'JavaScript','Bootstrap', 'EJS','Blaze','ReactJs', 'AngularJS', 'Python', 'PHP','NodeJS','MongoDB','SQL']
-
+web = ['HTML', 'CSS', 'JavaScript','Bootstrap', 'EJS','Blaze','Mustache','handlebarjs','ReactJs', 'AngularJS', 'Python', 'PHP','NodeJS','MongoDB','SQL']
 for wblang in web:
-
-  print (wblang)
+print (wblang)
  ```
-  
   or
 ```python
  for i in range(len(web)):
-  
-    print(web[i])
-```
-    
+ print(web[i])
+```  
 while True:
-
-
 ## List
 A linear collection of values which maintain order.A list is an ordered sequence. Each value in a sequence has its own index order.
 
 ```python
 
 lists = list()
+socialmedia = ['facebook','twitter','instagram', 'linkedin','pintrest','myspace']
 ```
 ### List Methods
 
 ## Dictionary
-A data collection in which each values has its own label or key. Dictionary in python is analogous to objects in JavaScript. Dictionary doesn't maintain order.Dictionary values is looked up by their keys or labels.Dictionaries are mutable or modifiable similar to lists. However, strings are immutable.
+A data collection in which each values has its own label or key. Dictionary in python is analogous to objects in JavaScript. Dictionary doesn't maintain order.Dictionary values is looked up by their keys or labels. Dictionaries are mutable or modifiable similar to lists. However, strings are immutable.
+The most common use of dictionary is to count how often something can occur. Refering a key which is not in a dictionary results error.
+
+```python
 shoppingbag = dict()
-
-```
 shoppingbag['milk'] = 2
-
 shoppingbag['egg'] = 1
-
 shoppingbag['coffee'] = 2
-
 shoppingbag['sugar'] = 1.5
+
+
 ```
-
-
 ## Tuples
 
