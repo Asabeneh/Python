@@ -68,7 +68,7 @@ Numbers are integer(int) and decimals(float).
 ```python
 ...-5,-4,-3,-2,-1,0,1,2,3,4,5...
 
-age = 25 
+age = 25
 fnumber= 4
 start = 0
 penality = -5
@@ -85,7 +85,7 @@ temp = 98.6
 "Hello World!"
 
 ###Booleans
-Boolean values are always true or false. It is affrimation or negation of a statement. 
+Boolean values are always true or false. It is affrimation or negation of a statement.
 ```python
 islighton = True
 islightof = False
@@ -137,7 +137,7 @@ lang = input("What language do you speak: ").lower()
             print("Hello",name)
     elif(lang=='es'):
             print("Holla",name)
- 
+
     elif(lang=='fr'):
         if(live =="France"):
             print("Bonjour",name)
@@ -152,7 +152,7 @@ lang = input("What language do you speak: ").lower()
 ### Custom Functions
 
 #### Void Function(Functions without parameter)
-```python 
+```python
 def saySomething():
         print("Good Morning")
   ```
@@ -181,7 +181,6 @@ max()
 min()
 len()
 
-
 ## Iterations
 ### Loops
 ##### For in list
@@ -189,7 +188,7 @@ len()
 web = ['HTML', 'CSS', 'JavaScript','Bootstrap', 'EJS','Blaze','Mustache','handlebarjs','ReactJs', 'AngularJS', 'Python', 'PHP','NodeJS','MongoDB','SQL']
 for wblang in web:
         print (wblang)
-      
+
 Print Result:
 ['HTML', 'CSS', 'JavaScript','Bootstrap', 'EJS','Blaze','Mustache','handlebarjs','ReactJs', 'AngularJS', 'Python', 'PHP','NodeJS','MongoDB','SQL']
 
@@ -204,7 +203,7 @@ Print Result:
 for num in range(15):
         if(num % 4 ==0):
                 print(num,"is divisible by f.")
-       
+
 Print Result:
 4 is divisible by 4.
 8 is divisible by 4.
@@ -239,19 +238,16 @@ greeting.tittle()
 greeting.endswith('g')
 greeting.startswith('g')
 greeting.isnumeric()
-
 ```
 methods can be found by dir(greeting) from the console
 ## Files
 Opening file from a local disk
 ```python
-
 fname = open('file')
 fhandle = fname.read()
 for line fhandle:
         print(line)
 ```
-
 ## List
 A linear collection of values which maintain order.A list is an ordered sequence. Each value in a sequence has its own index order.
 
@@ -268,23 +264,21 @@ lists[5] = False
 lists[6] = "Venomous Snake"
 
  print(lists)
- 
+
  Print Result:
 ['book', 'laptop',50, 1.5,'Mango', False, 'Venomous Snake\]
- 
+
 ```
 ### List Methods
 ```python
 lists = list()
 dir(lists) # to get the list methods from console
 ```
-
 ## Dictionary
 A data collection in which each values has its own label or key. Dictionary in python is analogous to objects in JavaScript. Dictionary doesn't maintain order.Dictionary values is looked up by their keys or labels. Dictionaries are mutable or modifiable similar to lists. However, strings are immutable.
 The most common use of dictionary is to count how often something can occur. Refering a key which is not in a dictionary results error.
 
 ```python
-
 courses = {'python':90,'javascript':95,'nodejs':85,'html':100,'css':95,'react':90,'mongodb':98}
 print(courses)
 
@@ -294,11 +288,9 @@ shoppingbag['milk'] = 2
 shoppingbag['egg'] = 1
 shoppingbag['coffee'] = 2
 shoppingbag['sugar'] = 1.5
-
 print(shoppingbag)
 
 Print result:   
-
 {'python':90,'javascript':95,'nodejs':85,'html':100,'css':95,'react':90,'mongodb':98}
 {'milk':2,'egg':1, 'coffee':2,'sugar':1.5}                                        
 
@@ -308,10 +300,5 @@ Print result:
 dic = dict()
 print(dir(dic))
 ```
-
 ## Tuples
-
 ## Python Modules
-
-
-
