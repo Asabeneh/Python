@@ -14,32 +14,38 @@ Strings
 `def saySomething:
   print("Good Morning")`
 ## Conditions
-`if 
+>`if 
 
-else`
+>else
+`
 
 `
-if
+> if
 
-elif 
+> elif 
 
-elif
+> elif
 
-elif
+> elif
 
-else`
+> else
+`
 
 ## Loop
-`web = ['HTML', 'CSS', 'JavaScript','Bootstrap', 'EJS','Blaze','ReactJs', 'AngularJS', 'Python', 'PHP','NodeJS','MongoDB','SQL']
+`
+> web = ['HTML', 'CSS', 'JavaScript','Bootstrap', 'EJS','Blaze','ReactJs', 'AngularJS', 'Python', 'PHP','NodeJS','MongoDB','SQL']
 
-for wblang in web:
+> for wblang in web:
 
-  print (wblang)`
+  print (wblang)
+  `
   
   or
-  `for i in range(len(web)):
+  `
+  for i in range(len(web)):
   
-    print(web[i])`
+    print(web[i])
+    `
     
 while True:
   ---
@@ -53,13 +59,15 @@ A linear collection of values which maintain order.A list is an ordered sequence
 A data collection in which each values has its own label or key. Dictionary in python is analogous to objects in JavaScript. Dictionary doesn't maintain order.Dictionary values is looked up by their keys or labels.Dictionaries are mutable or modifiable similar to lists. However, strings are immutable.
 shoppingbag = dict()
 
-`shoppingbag['milk'] = 2
+`
+shoppingbag['milk'] = 2
 
 shoppingbag['egg'] = 1
 
 shoppingbag['coffee'] = 2
 
-shoppingbag['sugar'] = 1.5`
+shoppingbag['sugar'] = 1.5
+`
 
 
 ## Tuples
