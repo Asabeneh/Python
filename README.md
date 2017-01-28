@@ -16,13 +16,13 @@ def saySomething:
         print("Good Morning")
         ```
 ## Conditions
-> ```python
+>```python
 if 
 
 else
 ```
 
-> ```python
+>```python
  if
 
 elif 
