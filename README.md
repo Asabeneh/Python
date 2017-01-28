@@ -50,17 +50,22 @@ print(type(dic))
 ```
 
 ## Data type
-Numbers(int, float)
-Numbers can be integers or decimamls.
-Integers are:
+
+###Numbers
+Numbers are integer(int) and decimals(float).
+
+####Integers(Int)
 ```python
 ...-5,-4,-3,-2,-1,0,1,2,3,4,5...
 ```
-Decimals or floating numbers:
+####Decimals(float)
 ```python
 ...-5, -5.5,0.25,0,1,3...
 ```
-
+###Booleans
+```python
+True, False
+```
 ## Strings
 ```python
 lang ="Python"
