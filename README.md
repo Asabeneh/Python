@@ -32,6 +32,7 @@ print("pi is a float",type(pi))
 print("temp is a float",type(temp))
 
 satisfied = False
+hungery = False
 single = True
 print(satisfied)
 print(single)
@@ -50,8 +51,22 @@ print(type(dic))
 
 ## Data type
 Numbers(int, float)
+Numbers can be integers or decimamls.
+Integers are:
+```python
+...-5,-4,-3,-2,-1,0,1,2,3,4,5...
+```
+Decimals or floating numbers:
+```python
+...-5, -5.5,0.25,0,1,3...
+```
 
 ## Strings
+```python
+lang ="Python"
+task ="scraping"
+greeting = "Hello Python ninjas"
+```
 
 ## Funcition
 ```python 
