@@ -107,21 +107,30 @@ else
 ```python
 web = ['HTML', 'CSS', 'JavaScript','Bootstrap', 'EJS','Blaze','Mustache','handlebarjs','ReactJs', 'AngularJS', 'Python', 'PHP','NodeJS','MongoDB','SQL']
 for wblang in web:
-print (wblang)
+        print (wblang)
  ```
   or
 ```python
  for i in range(len(web)):
- print(web[i])
+        print(web[i])
 ```  
 while True:
 ## List
 A linear collection of values which maintain order.A list is an ordered sequence. Each value in a sequence has its own index order.
 
 ```python
+socialmedia = ['facebook','twitter','instagram', 'linkedin','pintrest','myspace'] #Fixed amount of values
+lists = list() or lists = [] #Method of decalaring list variable
 
-lists = list()
-socialmedia = ['facebook','twitter','instagram', 'linkedin','pintrest','myspace']
+lists[0] = 'book'
+lists[1] = 'laptop'
+list[2] = 50
+lists[3] = 1.5
+lists[4] = 'Mango'
+lists[5] = False
+ print(lists)
+ 
+
 ```
 ### List Methods
 
@@ -131,10 +140,13 @@ The most common use of dictionary is to count how often something can occur. Ref
 
 ```python
 shoppingbag = dict()
+
 shoppingbag['milk'] = 2
 shoppingbag['egg'] = 1
 shoppingbag['coffee'] = 2
 shoppingbag['sugar'] = 1.5
+
+print(shoppingbag)
 
 
 ```
