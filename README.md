@@ -14,7 +14,7 @@ Numbers(int, float)
 ```python 
 def saySomething:
         print("Good Morning")
-        ```
+  ```
 ## Conditions
 ```python
 if 
@@ -41,22 +41,22 @@ web = ['HTML', 'CSS', 'JavaScript','Bootstrap', 'EJS','Blaze','ReactJs', 'Angula
 for wblang in web:
 
   print (wblang)
-  ```
+ ```
   
   or
- ```python
+```python
  for i in range(len(web)):
   
     print(web[i])
-    ```
+```
     
 while True:
-  ---
+
 
 ## List
 A linear collection of values which maintain order.A list is an ordered sequence. Each value in a sequence has its own index order.
 
->```python
+```python
 
 lists = list()
 ```
