@@ -11,14 +11,18 @@ Numbers(int, float)
 ## Strings
 
 ## Funcition
-```def saySomething:
-        print("Good Morning")```
+```python 
+def saySomething:
+        print("Good Morning")
+        ```
 ## Conditions
->```if 
+> ```python
+if 
 
-else```
+else
+```
 
->```
+> ```python
  if
 
 elif 
@@ -27,10 +31,12 @@ elif
 
 elif
 
-else```
+else
+```
 
 ## Loop
->``` web = ['HTML', 'CSS', 'JavaScript','Bootstrap', 'EJS','Blaze','ReactJs', 'AngularJS', 'Python', 'PHP','NodeJS','MongoDB','SQL']
+>```python
+web = ['HTML', 'CSS', 'JavaScript','Bootstrap', 'EJS','Blaze','ReactJs', 'AngularJS', 'Python', 'PHP','NodeJS','MongoDB','SQL']
 
  for wblang in web:
 
@@ -38,7 +44,8 @@ else```
   ```
   
   or
- > ```
+ > ```python
+ 
   for i in range(len(web)):
   
     print(web[i])
@@ -50,7 +57,9 @@ while True:
 ## List
 A linear collection of values which maintain order.A list is an ordered sequence. Each value in a sequence has its own index order.
 
->`lists = list()`
+>```python
+lists = list()
+```
 ### List Methods
 
 ## Dictionary
