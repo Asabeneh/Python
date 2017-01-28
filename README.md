@@ -151,9 +151,7 @@ def greet(lang,name):
             print("Hello",name)
     elif(lang=='es'):
             print("Holla",name)
- 
     elif(lang=='fr'):
-        if(live =="France"):
             print("Bonjour",name)
     elif(lang=='fi'):
             print("Moi",name)
@@ -167,7 +165,6 @@ greet(lang,name)
 sum()
 max()
 min()
-
 
 ## Conditions
 ### One - way decision
@@ -202,7 +199,6 @@ lang = input("What language do you speak: ").lower()
             print("Selam",name)
     else:
         print("Do you speak English?",name)
-
 ```
 ## Loop
 #### For in list
@@ -276,12 +272,12 @@ shoppingbag['coffee'] = 2
 shoppingbag['sugar'] = 1.5
 
 print(shoppingbag)
----------------------------------------------------------------------------------------
-|Print result:                                                                         |
-|--------------------------------------------------------------------------------------|
-|{'python':90,'javascript':95,'nodejs':85,'html':100,'css':95,'react':90,'mongodb':98} |
-|{'milk':2,'egg':1, 'coffee':2,'sugar':1.5}                                            |
-----------------------------------------------------------------------------------------
+
+Print result:   
+---|---
+*{'python':90,'javascript':95,'nodejs':85,'html':100,'css':95,'react':90,'mongodb':98}*
+*{'milk':2,'egg':1, 'coffee':2,'sugar':1.5}*                                          
+
 ```
 ### Dictionary Methods
 ## Tuples
