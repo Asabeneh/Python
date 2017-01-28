@@ -301,4 +301,26 @@ dic = dict()
 print(dir(dic))
 ```
 ## Tuples
+<<<<<<< HEAD
+=======
+
+Tuples like lists are a kind of sequence that users like lists. The elements of tuples are accessed by index starting from 0. Tuples are immutable like strings. Lists and dictionary are mutable(modifiable).
+```python
+
+Example of Tuples:
+countries = ('Ethiopia', 'Kenya', 'Jamaica', 'Uguanda')
+
+countries[0] = 'Estonia'  # Error, not allowed, because Tuples are immutable
+
+print (countries[0])
+print (countries[1])
+print (countries[2])
+print (countries[3])
+
+for country in countries:
+        print (country)
+
+```
+
+>>>>>>> a3ecb6c082e2ed0e8fb44d1ec035d6261ab098e9
 ## Python Modules
