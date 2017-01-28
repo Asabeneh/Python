@@ -108,11 +108,15 @@ else
 web = ['HTML', 'CSS', 'JavaScript','Bootstrap', 'EJS','Blaze','Mustache','handlebarjs','ReactJs', 'AngularJS', 'Python', 'PHP','NodeJS','MongoDB','SQL']
 for wblang in web:
         print (wblang)
- ```
-  or
-```python
+      
+Print Result:
+['HTML', 'CSS', 'JavaScript','Bootstrap', 'EJS','Blaze','Mustache','handlebarjs','ReactJs', 'AngularJS', 'Python', 'PHP','NodeJS','MongoDB','SQL']
+
+ #Another method to looping
  for i in range(len(web)):
         print(web[i])
+Print Result:
+['HTML', 'CSS', 'JavaScript','Bootstrap', 'EJS','Blaze','Mustache','handlebarjs','ReactJs', 'AngularJS', 'Python', 'PHP','NodeJS','MongoDB','SQL']
 ```  
 while True:
 ## List
@@ -128,9 +132,13 @@ list[2] = 50
 lists[3] = 1.5
 lists[4] = 'Mango'
 lists[5] = False
+lists[6] = "Venomous Snake"
+
  print(lists)
  
-
+ Print Result:
+['book', 'laptop',50, 1.5,'Mango', False, "Venomous Snake"]
+ 
 ```
 ### List Methods
 
@@ -148,7 +156,8 @@ shoppingbag['sugar'] = 1.5
 
 print(shoppingbag)
 
-
+Print result:
+{'milk':2,'egg':1, 'coffee':2,'sugar':1.5}
 ```
 ## Tuples
 
