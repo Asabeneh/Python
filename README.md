@@ -1,6 +1,6 @@
 #Python
 ##Python CheatSheet
-This python repository is prepared to be an online reference material. Therefore, the repository has python scripting codes from beginner to advanced levels. To make convient for learns, I organized the repository in different folder structure:Variable,Expressions, Conditionals, Functions, Loops, Lists, Dictionaries and Tuples. In different folder of the repository there many python scripting codes. Codes in the Variable, Expressions, Conditionals, Functions and Loops are beginner level. The codes in the Lists, Dictionaries, Tuples and other are advanced levels. Scripting codes in the list, dictionary, tuples folder can extract large text files.It loops through each line of the file and filter the line containing emails. Then email is extracted from each lines containing email by finding and slicing method. Then email is inserted in a python list. The total emails in the file and  total number of lines are counted.
+This python repository is prepared supposed be an online reference material. The repository has python scripting codes from beginners to advance levels. To make it accessible and more convient to use, I organized the repository in different folder structures:Variable,Expressions, Conditionals, Functions, Loops, Lists, Dictionaries and Tuples. In different folder of the repository there many python scripting codes. Codes in the Variable, Expressions, Conditionals, Functions and Loops are beginner level. The codes in the Lists, Dictionaries, Tuples and other are advanced levels. Scripting codes in the list, dictionary and tuples folder can extract large text files.It loops through each line of the file and filter the line containing emails. Then email is extracted from each lines containing email by finding and slicing method. Then email is inserted in a python list. The total emails in the file and  total number of lines are counted.
 
 ##Variable
 Variable are a means to store data. The data type which could be stored may be a number(int, float) or string.
@@ -59,7 +59,8 @@ Numbers are integer(int) and decimals(float).
 ####Integers(Int)
 ```python
 ...-5,-4,-3,-2,-1,0,1,2,3,4,5...
-age = 25
+
+age = 25 
 fnumber= 4
 start = 0
 penality = -5
@@ -67,6 +68,7 @@ penality = -5
 #### Decimals(float)
 ```python
 ...-5, -5.5,0.25,0,1,3...
+
 pi = 3.14
 temp = 98.6
 
@@ -133,12 +135,14 @@ methods can be found by dir(greeting) from the console
 
 
 ## Funcition
-### Void Function(Functions without parameter)
+### Custom Functions
+
+#### Void Function(Functions without parameter)
 ```python 
 def saySomething():
         print("Good Morning")
   ```
-### Function with parameters
+#### Function with parameters
 ```python
 name =input("What is your name: ").lower()
 lang = input("What language do you speak: ").lower()
@@ -160,6 +164,10 @@ def greet(lang,name):
 greet(lang,name)
 ```
 ### Built-in Functions
+sum()
+max()
+min()
+
 
 ## Conditions
 ### One - way decision
@@ -256,6 +264,10 @@ A data collection in which each values has its own label or key. Dictionary in p
 The most common use of dictionary is to count how often something can occur. Refering a key which is not in a dictionary results error.
 
 ```python
+
+courses = {'python':90,'javascript':95,'nodejs':85,'html':100,'css':95,'react':90,'mongodb':98}
+print(courses)
+
 shoppingbag = dict()
 
 shoppingbag['milk'] = 2
@@ -264,9 +276,12 @@ shoppingbag['coffee'] = 2
 shoppingbag['sugar'] = 1.5
 
 print(shoppingbag)
-
-Print result:
-{'milk':2,'egg':1, 'coffee':2,'sugar':1.5}
+---------------------------------------------------------------------------------------
+|Print result:                                                                         |
+|--------------------------------------------------------------------------------------|
+|{'python':90,'javascript':95,'nodejs':85,'html':100,'css':95,'react':90,'mongodb':98} |
+|{'milk':2,'egg':1, 'coffee':2,'sugar':1.5}                                            |
+----------------------------------------------------------------------------------------
 ```
 ### Dictionary Methods
 ## Tuples
