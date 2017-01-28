@@ -139,25 +139,62 @@ def saySomething():
         print("Good Morning")
   ```
 ### Function with parameters
+```python
+name =input("What is your name: ").lower()
+lang = input("What language do you speak: ").lower()
+def greet(lang,name):
+    if(lang == 'eng'):
+            print("Hello",name)
+    elif(lang=='es'):
+            print("Holla",name)
+ 
+    elif(lang=='fr'):
+        if(live =="France"):
+            print("Bonjour",name)
+    elif(lang=='fi'):
+            print("Moi",name)
+    elif(lang=='am'):
+            print("Selam",name)
+    else:
+        print("Do you speak English?",name)
+greet(lang,name)
+```
 ### Built-in Functions
 
 ## Conditions
 ### One - way decision
 ```python
-if
+x = 10
+if (x > 5):
+        print x
 ```
 ### Two -way decision
 ```python
-if 
-else
+x = 10
+if (x <5):
+        print(x)
+else:
+        print(x)
 ```
 ### Multi -way decision
 ```python
-if
-elif 
-elif
-elif
-else
+name =input("What is your name: ").lower()
+lang = input("What language do you speak: ").lower()
+    if(lang == 'eng'):
+            print("Hello",name)
+    elif(lang=='es'):
+            print("Holla",name)
+ 
+    elif(lang=='fr'):
+        if(live =="France"):
+            print("Bonjour",name)
+    elif(lang=='fi'):
+            print("Moi",name)
+    elif(lang=='am'):
+            print("Selam",name)
+    else:
+        print("Do you speak English?",name)
+
 ```
 ## Loop
 #### For in list
@@ -209,6 +246,10 @@ lists[6] = "Venomous Snake"
  
 ```
 ### List Methods
+```python
+lists = list()
+dir(lists) # to get the list methods from console
+```
 
 ## Dictionary
 A data collection in which each values has its own label or key. Dictionary in python is analogous to objects in JavaScript. Dictionary doesn't maintain order.Dictionary values is looked up by their keys or labels. Dictionaries are mutable or modifiable similar to lists. However, strings are immutable.
