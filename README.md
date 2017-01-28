@@ -16,13 +16,13 @@ def saySomething:
         print("Good Morning")
         ```
 ## Conditions
->```python
+```python
 if 
 
 else
 ```
 
->```python
+```python
  if
 
 elif 
@@ -35,18 +35,17 @@ else
 ```
 
 ## Loop
->```python
+```python
 web = ['HTML', 'CSS', 'JavaScript','Bootstrap', 'EJS','Blaze','ReactJs', 'AngularJS', 'Python', 'PHP','NodeJS','MongoDB','SQL']
 
- for wblang in web:
+for wblang in web:
 
   print (wblang)
   ```
   
   or
- > ```python
- 
-  for i in range(len(web)):
+ ```python
+ for i in range(len(web)):
   
     print(web[i])
     ```
@@ -58,6 +57,7 @@ while True:
 A linear collection of values which maintain order.A list is an ordered sequence. Each value in a sequence has its own index order.
 
 >```python
+
 lists = list()
 ```
 ### List Methods
@@ -66,7 +66,7 @@ lists = list()
 A data collection in which each values has its own label or key. Dictionary in python is analogous to objects in JavaScript. Dictionary doesn't maintain order.Dictionary values is looked up by their keys or labels.Dictionaries are mutable or modifiable similar to lists. However, strings are immutable.
 shoppingbag = dict()
 
->```
+```
 shoppingbag['milk'] = 2
 
 shoppingbag['egg'] = 1
