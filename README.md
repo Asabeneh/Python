@@ -9,15 +9,18 @@ Variable are a means to store data. The data type which could be stored may be a
 name = "Python Monthy"
 quest = "Scripting"
 activity = "Scraping"
+
 #To check the type of the Variables
 print("name is a string",type(name))
 print("quest is a string",type(quest))
 print("activity is a string",type(activity))
+
 #Variables containing numbers, integer
 age = 100
 year = 2017
 print(age)
 print(year)
+
 #To check the type of the Variables
 print("age is an int",type(age))
 print("year is an int",type(year))
@@ -27,6 +30,7 @@ pi = 3.14
 temp = 98.6
 print(pi)
 print(temp)
+
 #To check the type of the Variables
 print("pi is a float",type(pi))
 print("temp is a float",type(temp))
@@ -36,6 +40,7 @@ hungery = False
 single = True
 print(satisfied)
 print(single)
+
 #To check the type of the Variables
 print("satisfied is a boolean",type(satisfied))
 print("single is a boolean",type(single))
@@ -54,38 +59,89 @@ Numbers are integer(int) and decimals(float).
 ####Integers(Int)
 ```python
 ...-5,-4,-3,-2,-1,0,1,2,3,4,5...
+age = 25
+fnumber= 4
+start = 0
+penality = -5
 ```
-####Decimals(float)
+#### Decimals(float)
 ```python
 ...-5, -5.5,0.25,0,1,3...
+pi = 3.14
+temp = 98.6
+
 ```
+### Strings
+"Hello World!"
+
 ###Booleans
 Boolean values are always true or false. It is affrimation or negation of a statement. 
 ```python
 islighton = True
 islightof = False
 
-hunger = False
-statisfied = false
+hungery = False
+statisfied = False
 married = False
 student = True
 
-True, False
+print(islighton)
+print(islightoff)
+
+print(hungery)
+print(married)
+print(student)
+
+Print Result:
+True
+False
+
+False
+False
+True
+
 ```
 ## Strings
+
 ```python
 lang ="Python"
 task ="scraping"
 greeting = "Hello Python ninjas"
+
+print(lang)
+print(task)
+print(greeting)
+
+Print Result:
+python
+scraping
+Hello Python ninjas
+```
+### String Methods
+```python
+greeting = "Hello Donald J. Trump"
+greeting.lower()
+greeting.upper()
+greeting.tittle()
+greeting.endswith('g')
+greeting.startswith('g')
+greeting.isnumeric()
+
 ```
 
+methods can be found by dir(greeting) from the console
+
+
 ## Funcition
+### Void Function(Functions without parameter)
 ```python 
 def saySomething():
         print("Good Morning")
   ```
-## Conditions
+### Function with parameters
+### Built-in Functions
 
+## Conditions
 ### One - way decision
 ```python
 if
@@ -104,6 +160,7 @@ elif
 else
 ```
 ## Loop
+#### For in list
 ```python
 web = ['HTML', 'CSS', 'JavaScript','Bootstrap', 'EJS','Blaze','Mustache','handlebarjs','ReactJs', 'AngularJS', 'Python', 'PHP','NodeJS','MongoDB','SQL']
 for wblang in web:
@@ -118,6 +175,17 @@ Print Result:
 Print Result:
 ['HTML', 'CSS', 'JavaScript','Bootstrap', 'EJS','Blaze','Mustache','handlebarjs','ReactJs', 'AngularJS', 'Python', 'PHP','NodeJS','MongoDB','SQL']
 ```  
+#### For number in range(a number)
+```python
+for num in range(15):
+        if(num % 4 ==0):
+                print(num,"is divisible by f.")
+       
+Print Result:
+4 is divisible by 4.
+8 is divisible by 4.
+12 is divisible by 4.
+```     
 while True:
 ## List
 A linear collection of values which maintain order.A list is an ordered sequence. Each value in a sequence has its own index order.
@@ -137,7 +205,7 @@ lists[6] = "Venomous Snake"
  print(lists)
  
  Print Result:
-['book', 'laptop',50, 1.5,'Mango', False, "Venomous Snake"]
+['book', 'laptop',50, 1.5,'Mango', False, 'Venomous Snake\]
  
 ```
 ### List Methods
@@ -159,5 +227,6 @@ print(shoppingbag)
 Print result:
 {'milk':2,'egg':1, 'coffee':2,'sugar':1.5}
 ```
+### Dictionary Methods
 ## Tuples
 
