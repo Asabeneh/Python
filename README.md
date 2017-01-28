@@ -7,6 +7,7 @@ Variable are a means to store data. The data type which could be stored may be a
 
 ## Data type
 Numbers(int, float)
+
 Strings
 
 ## Funcition
@@ -14,22 +15,30 @@ Strings
   print("Good Morning")`
 ## Conditions
 `if 
+
 else`
 
 `
 if
+
 elif 
+
 elif
+
 elif
+
 else`
 
 ## Loop
 `web = ['HTML', 'CSS', 'JavaScript','Bootstrap', 'EJS','Blaze','ReactJs', 'AngularJS', 'Python', 'PHP','NodeJS','MongoDB','SQL']
+
 for wblang in web:
+
   print (wblang)`
   
   or
   `for i in range(len(web)):
+  
     print(web[i])`
     
 while True:
@@ -45,8 +54,11 @@ A data collection in which each values has its own label or key. Dictionary in p
 shoppingbag = dict()
 
 `shoppingbag['milk'] = 2
+
 shoppingbag['egg'] = 1
+
 shoppingbag['coffee'] = 2
+
 shoppingbag['sugar'] = 1.5`
 
 
