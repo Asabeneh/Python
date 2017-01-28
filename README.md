@@ -10,27 +10,45 @@ Numbers(int, float)
 Strings
 
 ## Funcition
-def saySomething:
-  print("Good Morning")
+`def saySomething:
+  print("Good Morning")`
 ## Conditions
-if else
-if elif elif elif else
+`if 
+else`
+
+`
+if
+elif 
+elif
+elif
+else`
 
 ## Loop
-web = ['HTML', 'CSS', 'JavaScript','Bootstrap', 'EJS','Blaze','ReactJs', 'AngularJS', 'Python', 'PHP','NodeJS','MongoDB','SQL']
+`web = ['HTML', 'CSS', 'JavaScript','Bootstrap', 'EJS','Blaze','ReactJs', 'AngularJS', 'Python', 'PHP','NodeJS','MongoDB','SQL']
 for wblang in web:
-  print (wblang)
+  print (wblang)`
   
   or
-  for i in range(len(web)):
-    print(web[i])
+  `for i in range(len(web)):
+    print(web[i])`
     
 while True:
   ---
 
 ## List
-A list is an ordered sequence. Each value in a sequence has its own index order.
+A linear collection of values which maintain order.A list is an ordered sequence. Each value in a sequence has its own index order.
+`lists = list()`
+### List Methods
 
 ## Dictionary
+A data collection in which each values has its own label or key. Dictionary in python is analogous to objects in JavaScript. Dictionary doesn't maintain order.Dictionary values is looked up by their keys or labels.Dictionaries are mutable or modifiable similar to lists. However, strings are immutable.
+shoppingbag = dict()
+
+`shoppingbag['milk'] = 2
+shoppingbag['egg'] = 1
+shoppingbag['coffee'] = 2
+shoppingbag['sugar'] = 1.5`
+
+
 ## Tuples
 
