@@ -33,9 +33,9 @@ print("satisfied is a boolean",type(satisfied))
 print("single is a boolean",type(single))
 
 #Declaring list variable in python
-items = list # this is a list
+items = list() # this is a list
 items = [] # this is also a list
 print(type(items))
 #Declaring list variable in python
-dic = dict() 
+dic = dict()
 print(type(dic))
