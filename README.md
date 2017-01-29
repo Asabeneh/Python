@@ -1,8 +1,17 @@
 #Python
 ##Python CheatSheet
+[Introduction][1]
+[Variables, Expressions and Statements][2]
+[Data types][3]
+[Try and Except][]
+[Conditionals][]
+[Iterations][]
+[Strings][]
+[List][]
+[Dictionary][]
 This python repository is prepared supposed be an online reference material. The repository has python scripting codes from beginners to advance levels. To make it accessible and more convient to use, I organized the repository in different folder structures:Variable,Expressions, Conditionals, Functions, Loops, Lists, Dictionaries and Tuples. In different folder of the repository there many python scripting codes. Codes in the Variable, Expressions, Conditionals, Functions and Loops are beginner level. The codes in the Lists, Dictionaries, Tuples and other are advanced levels. Scripting codes in the list, dictionary and tuples folder can extract large text files.It loops through each line of the file and filter the line containing emails. Then email is extracted from each lines containing email by finding and slicing method. Then email is inserted in a python list. The total emails in the file and  total number of lines are counted.
 
-##Variables, Expressions and Statements
+## Variables, Expressions and Statements[1]
 Variable are a means to store data. The data type which could be stored may be a number(int, float) or string.
 ```python
 #Variables containing string
@@ -61,7 +70,7 @@ not try class except if or while
 continue exec import pass yield
 def finally in print as with
 ```
-## Data types
+## Data types [2]
 ###Numbers
 Numbers are integer(int) and decimals(float).
 ####Integers(Int)
@@ -111,10 +120,10 @@ False
 True
 
 ```
-## Try and Except
+## Try and Except [3]
 #### Handling Errors Gracefully
 
-## Conditionalss
+## Conditionals[4]
 ### One - way decision
 ```python
 x = 10
@@ -148,7 +157,7 @@ lang = input("What language do you speak: ").lower()
     else:
         print("Do you speak English?",name)
 ```
-## Funcition
+## Funcition [5]
 ### Custom Functions
 
 #### Void Function(Functions without parameter)
@@ -181,7 +190,7 @@ max()
 min()
 len()
 
-## Iterations
+## Iterations[6]
 ### Loops
 ##### For in list
 ```python
@@ -240,7 +249,7 @@ greeting.startswith('g')
 greeting.isnumeric()
 ```
 methods can be found by dir(greeting) from the console
-## Files
+## Files[7]
 Opening file from a local disk
 ```python
 fname = open('file')
@@ -248,7 +257,7 @@ fhandle = fname.read()
 for line fhandle:
         print(line)
 ```
-## List
+## List[8]
 A linear collection of values which maintain order.A list is an ordered sequence. Each value in a sequence has its own index order.
 
 ```python
@@ -274,7 +283,7 @@ lists[6] = "Venomous Snake"
 lists = list()
 dir(lists) # to get the list methods from console
 ```
-## Dictionary
+## Dictionary []
 A data collection in which each values has its own label or key. Dictionary in python is analogous to objects in JavaScript. Dictionary doesn't maintain order.Dictionary values is looked up by their keys or labels. Dictionaries are mutable or modifiable similar to lists. However, strings are immutable.
 The most common use of dictionary is to count how often something can occur. Refering a key which is not in a dictionary results error.
 
@@ -301,12 +310,10 @@ dic = dict()
 print(dir(dic))
 ```
 ## Tuples
-<<<<<<< HEAD
-=======
 
 Tuples like lists are a kind of sequence that users like lists. The elements of tuples are accessed by index starting from 0. Tuples are immutable like strings. Lists and dictionary are mutable(modifiable).
-```python
 
+```python
 Example of Tuples:
 countries = ('Ethiopia', 'Kenya', 'Jamaica', 'Uguanda')
 
@@ -322,5 +329,25 @@ for country in countries:
 
 ```
 
->>>>>>> a3ecb6c082e2ed0e8fb44d1ec035d6261ab098e9
 ## Python Modules
+
+## Regular Expressions
+There are referred to as "Regex" or "regexp"
+Regular expressions are a concise and flexible way for matching strings of text ,characterds, words, paterns of character. A regular expression process is needed for the command to be interperated. A regular expressions are a language by themselves which can be used in other programming language too. Therefore regular expression library has to be imported to the file by using "import re"
+Regular Expressins:
+```python
+^         Matches the beginning of a line
+$         Matches the end of the line
+.         Matches any character
+\s        Matches whitespace
+\S        Matches any non-whitespace character
+*         Repeats a character zero or more times
+*?        Repeats a character zero or more times (non-greedy)
++         Repeats a character one or more times
++?        Repeats a character one or more times (non-greedy)
+[aeiou]   Matches a single character in the listed set
+[^XYZ]    Matches a single character not in the listed set
+[a-z0-9]  The set of characters can include a range
+(         Indicates where string extraction is to start
+)         Indicates where string extraction is to end
+```
