@@ -11,7 +11,7 @@
 [Dictionary][]
 This python repository is prepared supposed be an online reference material. The repository has python scripting codes from beginners to advance levels. To make it accessible and more convient to use, I organized the repository in different folder structures:Variable,Expressions, Conditionals, Functions, Loops, Lists, Dictionaries and Tuples. In different folder of the repository there many python scripting codes. Codes in the Variable, Expressions, Conditionals, Functions and Loops are beginner level. The codes in the Lists, Dictionaries, Tuples and other are advanced levels. Scripting codes in the list, dictionary and tuples folder can extract large text files.It loops through each line of the file and filter the line containing emails. Then email is extracted from each lines containing email by finding and slicing method. Then email is inserted in a python list. The total emails in the file and  total number of lines are counted.
 
-## Variables, Expressions and Statements[1]
+[## Variables, Expressions and Statements] : [1]
 Variable are a means to store data. The data type which could be stored may be a number(int, float) or string.
 ```python
 #Variables containing string
@@ -70,7 +70,7 @@ not try class except if or while
 continue exec import pass yield
 def finally in print as with
 ```
-## Data types [2]
+[## Data types]: [2]
 ###Numbers
 Numbers are integer(int) and decimals(float).
 ####Integers(Int)
@@ -120,7 +120,7 @@ False
 True
 
 ```
-## Try and Except [3]
+[## Try and Except] :[3]
 #### Handling Errors Gracefully
 
 ## Conditionals[4]
@@ -157,7 +157,7 @@ lang = input("What language do you speak: ").lower()
     else:
         print("Do you speak English?",name)
 ```
-## Funcition [5]
+[## Funcition]: [5]
 ### Custom Functions
 
 #### Void Function(Functions without parameter)
