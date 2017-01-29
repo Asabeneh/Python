@@ -62,7 +62,7 @@ not try class except if or while
 continue exec import pass yield
 def finally in print as with
 ```
-## Data types]: 
+## Datat ypes
 ###Numbers
 Numbers are integer(int) and decimals(float).
 ####Integers(Int)
@@ -182,7 +182,7 @@ max()
 min()
 len()
 
-## Iterations
+## Iteration
 ### Loops
 ##### For in list
 ```python
@@ -241,7 +241,7 @@ greeting.startswith('g')
 greeting.isnumeric()
 ```
 methods can be found by dir(greeting) from the console
-## Files
+## File
 Opening file from a local disk
 ```python
 fname = open('file')
@@ -318,15 +318,12 @@ print (countries[3])
 
 for country in countries:
         print (country)
-
-```
-
-## Python Modules
-
+        ```
 ## Regular Expressions
 There are referred to as "Regex" or "regexp"
 Regular expressions are a concise and flexible way for matching strings of text ,characterds, words, paterns of character. A regular expression process is needed for the command to be interperated. A regular expressions are a language by themselves which can be used in other programming language too. Therefore regular expression library has to be imported to the file by using "import re"
 Regular Expressins:
+
 ```python
 ^         Matches the beginning of a line
 $         Matches the end of the line
