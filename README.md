@@ -1,17 +1,9 @@
 #Python
 ##Python CheatSheet
-[Introduction][1]
-[Variables, Expressions and Statements][2]
-[Data types][3]
-[Try and Except][]
-[Conditionals][]
-[Iterations][]
-[Strings][]
-[List][]
-[Dictionary][]
+
 This python repository is prepared supposed be an online reference material. The repository has python scripting codes from beginners to advance levels. To make it accessible and more convient to use, I organized the repository in different folder structures:Variable,Expressions, Conditionals, Functions, Loops, Lists, Dictionaries and Tuples. In different folder of the repository there many python scripting codes. Codes in the Variable, Expressions, Conditionals, Functions and Loops are beginner level. The codes in the Lists, Dictionaries, Tuples and other are advanced levels. Scripting codes in the list, dictionary and tuples folder can extract large text files.It loops through each line of the file and filter the line containing emails. Then email is extracted from each lines containing email by finding and slicing method. Then email is inserted in a python list. The total emails in the file and  total number of lines are counted.
 
-[## Variables, Expressions and Statements] : [1]
+## Variables, Expressions and Statements
 Variable are a means to store data. The data type which could be stored may be a number(int, float) or string.
 ```python
 #Variables containing string
@@ -70,7 +62,7 @@ not try class except if or while
 continue exec import pass yield
 def finally in print as with
 ```
-[## Data types]: [2]
+## Data types]: 
 ###Numbers
 Numbers are integer(int) and decimals(float).
 ####Integers(Int)
@@ -120,7 +112,7 @@ False
 True
 
 ```
-[## Try and Except] :[3]
+## Try and Except
 #### Handling Errors Gracefully
 
 ## Conditionals[4]
@@ -157,7 +149,7 @@ lang = input("What language do you speak: ").lower()
     else:
         print("Do you speak English?",name)
 ```
-[## Funcition]: [5]
+## Funcition
 ### Custom Functions
 
 #### Void Function(Functions without parameter)
@@ -190,7 +182,7 @@ max()
 min()
 len()
 
-## Iterations[6]
+## Iterations
 ### Loops
 ##### For in list
 ```python
@@ -249,7 +241,7 @@ greeting.startswith('g')
 greeting.isnumeric()
 ```
 methods can be found by dir(greeting) from the console
-## Files[7]
+## Files
 Opening file from a local disk
 ```python
 fname = open('file')
@@ -257,7 +249,7 @@ fhandle = fname.read()
 for line fhandle:
         print(line)
 ```
-## List[8]
+## List
 A linear collection of values which maintain order.A list is an ordered sequence. Each value in a sequence has its own index order.
 
 ```python
@@ -283,7 +275,7 @@ lists[6] = "Venomous Snake"
 lists = list()
 dir(lists) # to get the list methods from console
 ```
-## Dictionary []
+## Dictionary
 A data collection in which each values has its own label or key. Dictionary in python is analogous to objects in JavaScript. Dictionary doesn't maintain order.Dictionary values is looked up by their keys or labels. Dictionaries are mutable or modifiable similar to lists. However, strings are immutable.
 The most common use of dictionary is to count how often something can occur. Refering a key which is not in a dictionary results error.
 
