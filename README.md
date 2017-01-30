@@ -55,12 +55,18 @@ dic = dict()
 print(type(dic))
 ```
 Python Reservered words:
+
 **
-_and del for is raise assert elif from
-lambda return break else global
-not try class except if or while
-continue exec import pass yield
-def finally in print as with_**
+_and del for is raise assert elif from_
+
+_lambda return break else global_
+
+_not try class except if or while_
+
+_continue exec import pass yield_
+
+_def finally in print as with_
+_**
 
 ##Datat ypes
 ### Numbers
