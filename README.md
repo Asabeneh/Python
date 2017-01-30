@@ -3,7 +3,7 @@
 
 This python repository is prepared supposed be an online reference material. The repository has python scripting codes from beginners to advance levels. To make it accessible and more convient to use, I organized the repository in different folder structures:Variable,Expressions, Conditionals, Functions, Loops, Lists, Dictionaries and Tuples. In different folder of the repository there many python scripting codes. Codes in the Variable, Expressions, Conditionals, Functions and Loops are beginner level. The codes in the Lists, Dictionaries, Tuples and other are advanced levels. Scripting codes in the list, dictionary and tuples folder can extract large text files.It loops through each line of the file and filter the line containing emails. Then email is extracted from each lines containing email by finding and slicing method. Then email is inserted in a python list. The total emails in the file and  total number of lines are counted.
 
-## Variables, Expressions and Statements
+##Variables, Expressions and Statements
 Variable are a means to store data. The data type which could be stored may be a number(int, float) or string.
 ```python
 #Variables containing string
@@ -55,17 +55,17 @@ dic = dict()
 print(type(dic))
 ```
 Python Reservered words:
-```python
-and del for is raise assert elif from
+**
+_and del for is raise assert elif from
 lambda return break else global
 not try class except if or while
 continue exec import pass yield
-def finally in print as with
-```
-## Datat ypes
-###Numbers
+def finally in print as with_**
+
+##Datat ypes
+### Numbers
 Numbers are integer(int) and decimals(float).
-####Integers(Int)
+#### Integers(Int)
 ```python
 ...-5,-4,-3,-2,-1,0,1,2,3,4,5...
 
@@ -76,7 +76,8 @@ penality = -5
 ```
 #### Decimals(float)
 ```python
-...-5, -5.5,0.25,0,1,3...
+
+...-5, -5.5 ,0.25, 0, 1, 2.22, 3, 3.14..
 
 pi = 3.14
 temp = 98.6
@@ -85,7 +86,7 @@ temp = 98.6
 ### Strings
 "Hello World!"
 
-###Booleans
+### Booleans
 Boolean values are always true or false. It is affrimation or negation of a statement.
 ```python
 islighton = True
@@ -115,7 +116,7 @@ True
 ## Try and Except
 #### Handling Errors Gracefully
 
-## Conditionals[4]
+## Conditionals
 ### One - way decision
 ```python
 x = 10
@@ -267,7 +268,7 @@ lists[6] = "Venomous Snake"
  print(lists)
 
  Print Result:
-['book', 'laptop',50, 1.5,'Mango', False, 'Venomous Snake\]
+['book', 'laptop',50, 1.5,'Mango', False, 'Venomous Snake']
 
 ```
 ### List Methods
@@ -305,8 +306,8 @@ print(dir(dic))
 
 Tuples like lists are a kind of sequence that users like lists. The elements of tuples are accessed by index starting from 0. Tuples are immutable like strings. Lists and dictionary are mutable(modifiable).
 
-```python
 Example of Tuples:
+
 countries = ('Ethiopia', 'Kenya', 'Jamaica', 'Uguanda')
 
 countries[0] = 'Estonia'  # Error, not allowed, because Tuples are immutable
@@ -318,7 +319,7 @@ print (countries[3])
 
 for country in countries:
         print (country)
-        ```
+
 ## Regular Expressions
 There are referred to as "Regex" or "regexp"
 Regular expressions are a concise and flexible way for matching strings of text ,characterds, words, paterns of character. A regular expression process is needed for the command to be interperated. A regular expressions are a language by themselves which can be used in other programming language too. Therefore regular expression library has to be imported to the file by using "import re"
