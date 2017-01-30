@@ -1,12 +1,14 @@
 import json
 input = '''[
-{ "id" : "001",
-"x" : "2",
-"name" : "Chuck"
+{
+"id" : "001",
+"x" : "1",
+"name" : "Asabeneh"
 } ,
-{ "id" : "009",
-"x" : "7",
-"name" : "Chuck"
+{
+"id" : "002",
+"x" : "2",
+"name" : "Eyob"
 }
 ]'''
 info = json.loads(input)

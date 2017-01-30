@@ -54,16 +54,20 @@ print(type(items))
 dic = dict()
 print(type(dic))
 ```
-Python Reservered words:
+Python Reserved words:
 
 *_and del for is raise assert elif
+
 from lambda return break else global
+
 not try class except if or while
+
 continue exec import pass yield
+
 def finally in print as with_*
 
 
-##Datat ypes
+##Datat types
 ### Numbers
 Numbers are integer(int) and decimals(float).
 #### Integers(Int)
@@ -114,17 +118,19 @@ False
 True
 
 ```
+### Objects
+
 ## Try and Except
 #### Handling Errors Gracefully
 
 ## Conditionals
-### One - way decision
+### One-way decision
 ```python
 x = 10
 if (x > 5):
         print x
 ```
-### Two -way decision
+### Two-way decision
 ```python
 x = 10
 if (x <5):
@@ -132,7 +138,7 @@ if (x <5):
 else:
         print(x)
 ```
-### Multi -way decision
+### Multi-way decision
 ```python
 name =input("What is your name: ").lower()
 lang = input("What language do you speak: ").lower()
@@ -153,7 +159,6 @@ lang = input("What language do you speak: ").lower()
 ```
 ## Funcition
 ### Custom Functions
-
 #### Void Function(Functions without parameter)
 ```python
 def saySomething():
@@ -308,11 +313,9 @@ print(dir(dic))
 Tuples like lists are a kind of sequence that users like lists. The elements of tuples are accessed by index starting from 0. Tuples are immutable like strings. Lists and dictionary are mutable(modifiable).
 
 Example of Tuples:
-
+```python
 countries = ('Ethiopia', 'Kenya', 'Jamaica', 'Uguanda')
-
 countries[0] = 'Estonia'  # Error, not allowed, because Tuples are immutable
-
 print (countries[0])
 print (countries[1])
 print (countries[2])
@@ -320,7 +323,7 @@ print (countries[3])
 
 for country in countries:
         print (country)
-
+```
 ## Regular Expressions
 There are referred to as "Regex" or "regexp"
 Regular expressions are a concise and flexible way for matching strings of text ,characterds, words, paterns of character. A regular expression process is needed for the command to be interperated. A regular expressions are a language by themselves which can be used in other programming language too. Therefore regular expression library has to be imported to the file by using "import re"
@@ -342,3 +345,8 @@ $         Matches the end of the line
 (         Indicates where string extraction is to start
 )         Indicates where string extraction is to end
 ```
+##Objects
+
+##Web Services, API
+
+##Web Scraping, BeautifullSoup

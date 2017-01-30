@@ -1,13 +1,14 @@
 import xml.etree.ElementTree as ET
-input = '''<stuff>
+input =
+'''<stuff>
 <users>
-<user x="2">
+<user x="1">
 <id>001</id>
-<name>Chuck</name>
+<name>Asabeneh</name>
 </user>
-<user x="7">
-<id>009</id>
-<name>Brent</name>
+<user x="2">
+<id>002</id>
+<name>Eyob</name>
 </user>
 </users>
 </stuff>'''

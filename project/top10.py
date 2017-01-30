@@ -1,7 +1,7 @@
 #To get file from user, user doesn't put a file
 fname = input("Enter file: ")
 if(fname == ""):
-    fname = 'romeo.txt'
+    fname = 'obama.txt'
 # To handle errors gracefully
 try:
     fopen = open(fname, 'r')
@@ -25,7 +25,7 @@ prepos = ['a','the',
 'i','me','mine','we','us','our','ours',
 'he','his','she','her','hers',
 'you','your','yours',
-'they','them','their','by','no','not','who','when','where','what','why','which','from',',','/','-']
+'they','them','their','by','no','not','who','when','where','what','why','which','from',',','/','-','as','than','its']
 
 # This function changes the fill in to dictionary
 def changetodic():

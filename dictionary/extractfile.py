@@ -1,3 +1,4 @@
+print("A default text file is set,enter either mbox-short.txt or mbox.txt")
 fname = input("Enter file name: ")
 if(fname == ""):
     fname = 'mbox-short.txt'
