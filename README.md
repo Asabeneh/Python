@@ -56,11 +56,12 @@ print(type(dic))
 ```
 Python Reservered words:
 
-**_and del for is raise assert elif from lambda return break else global
-_not try class except if or while
-_continue exec import pass yield
-def finally in print as with
-_**
+**_and del for is raise assert elif
+**_from lambda return break else global
+**_not try class except if or while
+**_continue exec import pass yield
+**_def finally in print as with
+
 
 ##Datat ypes
 ### Numbers
